@@ -3,66 +3,76 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>FAQ — The Equitable Corporation</title>
+    <title>FAQ &mdash; The Equitable Corporation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="wiki-page">
-        <!-- Top bar: brand, search -->
-        <div id="wiki-header">
-            <div class="wiki-header-inner">
-                <a href="/" id="wiki-logo"><span class="logo-mark">&#10003;</span> Equitable Corporation</a>
+    <div id="site">
+        <!-- Top bar -->
+        <div id="topbar">
+            <div class="topbar-inner">
+                <a href="/" id="logo"><span class="logo-mark">&#10003;</span> Equitable Corporation</a>
+                <nav class="topnav">
+                    <a href="/">Overview</a>
+                    <a href="/#faq">FAQ</a>
+                    <a href="https://equitablestandard.com" target="_blank">The Standard &rarr;</a>
+                </nav>
             </div>
         </div>
 
-        <div id="wiki-body">
-            <!-- Sidebar navigation -->
-            <div id="wiki-sidebar">
-                <div class="wiki-nav-section">
-                    <h4>Navigation</h4>
-                    <ul>
-                        <li><a href="/">Overview</a></li>
-                        <li><a href="/faq">FAQ</a></li>
-                    </ul>
-                </div>
-                <div class="wiki-nav-section">
-                    <h4>The Standard</h4>
-                    <ul>
-                        <li><a href="https://equitablestandard.com" target="_blank">equitablestandard.com &rarr;</a></li>
-                    </ul>
+        <!-- Hero -->
+        <section class="hero" id="top">
+            <div class="container">
+                <span class="eyebrow">Equitable Corporation</span>
+                <h1>Frequently <span class="grad">Asked Questions</span></h1>
+                <p class="sub">About the Equitable Corporation &mdash; a structure where the people who create the value keep it, and the rules can only get stronger.</p>
+            </div>
+        </section>
+
+        <!-- FAQ -->
+        <section class="section" id="faq">
+            <div class="container narrow">
+                <div class="faq-list">
+                    <details class="faq-item reveal" open>
+                        <summary>What is an Equitable Corporation?</summary>
+                        <p>A corporate structure in which the value created by users is not extracted: user data stays owned by the user, and the charter requires a supermajority and a right of first refusal for any sale of control, the core IP, or the brand to a private equity firm, a venture capital fund, or any acquirer that would control the board &mdash; so a capture is <em>priced and public</em>, not possible to do quietly.</p>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>How is it different from a normal company?</summary>
+                        <p>In a normal company, user data and attention are assets that can be sold, and the company can be sold to an acquirer. In an Equitable Corporation, user data stays owned by the user, and the charter requires a supermajority and a right of first refusal for any sale or change of control to a private equity firm, a venture capital fund, or any acquirer that would control the board &mdash; so a capture is <em>priced and public</em>. Permitted acquirers are limited to a mission-aligned for-profit research institution that adopts the principles in writing, a founder- and staff-directed buyout, or a dissolution into a non-profit or research-purpose trust.</p>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>Is it public or private?</summary>
+                        <p>Both &mdash; and that&rsquo;s the point. The commitments themselves are public and verifiable: every line of deployed code is auditable by your IT security team, and governance, financials, and data practices are open to audit. What stays private is the user&rsquo;s own work and data &mdash; those are never the company&rsquo;s to disclose or use. And the protection is two layers: the charter makes capture costly and public, and a capture or an adverse change breaches the agreement with every signee (terminating the service and returning the data).</p>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>Who owns the value it creates?</summary>
+                        <p>The people who created it. User data and work stay owned by the user, and the company&rsquo;s structure is built so that value isn&rsquo;t redirected to outside extractors. The founder holds the equity and is paid a capped salary plus a locked ratio of profits &mdash; but cannot take the company&rsquo;s defining commitments with them, because those are locked in the charter and can only be strengthened.</p>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>What stops the founder from changing the rules?</summary>
+                        <p>The charter. The core terms can only be strengthened, never weakened &mdash; a material adverse change to them (weakening data ownership, enabling sale/mining of the signee&rsquo;s data or records, or reducing auditability) requires the stated supermajority and triggers the per-signee remedy. A company can add features and grow, but a material adverse change to those principles requires the stated supermajority.</p>
+                    </details>
+                    <details class="faq-item reveal">
+                        <summary>Is the founder above the company?</summary>
+                        <p>No. The founder can be replaced by an equitable vote of the community, so the structure doesn&rsquo;t depend on one person staying forever. And because the commitments are in the charter and the user agreements, they outlive any single person, board, or management team.</p>
+                    </details>
                 </div>
             </div>
+        </section>
 
-            <!-- Main article area -->
-            <div id="wiki-main">
-                <h1 id="firstHeading">Frequently Asked Questions</h1>
-                <div id="article-body">
-                    <h2>What is the Equitable Corporation?</h2>
-<p>A corporate structure in which the value created by users is not extracted: user data stays owned by the user, the charter requires a supermajority and a right of first refusal for any sale of control, the core IP, or the brand to a private equity firm, a venture capital fund, or any acquirer that would control the board, and the signed record verifies independently of the company&#39;s ownership.</p>
-
-<h2>How is it different from a normal corporation?</h2>
-<p>In a normal corporation, user data and attention are assets that can be sold, and the company can be sold to an acquirer. In an Equitable Corporation, user data stays owned by the user, and the charter requires a supermajority and a right of first refusal for any sale or change of control to a private equity firm, a venture capital fund, or any acquirer that would control the board &mdash; so a capture is <em>priced and public</em>. Permitted acquirers are limited to a mission-aligned for-profit research institution that adopts the principles in writing, a founder- and staff-directed buyout, or a dissolution into a non-profit or research-purpose trust. The signed record verifies independently of the company&#39;s ownership, so it outlasts any single owner.</p>
-
-<h2>Is the commitment permanent?</h2>
-<p>Yes. The core terms <strong>can only be strengthened, never weakened</strong> &mdash; a material adverse change to them (weakening data ownership, enabling sale/mining of the signee&#39;s data or records, or reducing auditability) requires the stated supermajority and triggers the per-signee remedy. A company can add features and grow, but it cannot walk back the principles that protect its users.</p>
-
-<h2>How is transparency handled?</h2>
-<p>The commitments are verifiable rather than merely promised: every line of deployed code is auditable by your IT security team, and governance, financials, and data practices are open to audit. What stays private is the user&#39;s own work and data &mdash; those are never the company&#39;s to disclose or use. And the signed record is cryptographically durable &mdash; it verifies against the public chain (or your own key), independent of the company&#39;s future ownership or survival. So the protection is three layers: the record outlives us; the charter makes capture costly and public; and a capture or an adverse change breaches the agreement with every signee.</p>
-
-<h2>Can any company adopt this structure?</h2>
-<p>Yes. The <a href="https://equitablestandard.com" target="_blank">Equitable Standard</a> is open to any incorporated entity that genuinely commits to the principles. Applying is free, and certification takes about 30 days.</p>
-
-                </div>
+        <!-- Footer -->
+        <footer id="footer">
+            <div class="container footer-inner">
+                <span id="foot-brand"><span class="logo-mark">&#10003;</span> Equitable Corporation</span>
+                <span class="foot-copy">&copy; 2026 &middot; founded by <strong>Ethan Wei, MD</strong> &middot; <a href="https://equitablestandard.com" target="_blank">equitablestandard.com</a> &middot; <a href="https://worksigned.com" target="_blank">worksigned.com</a></span>
             </div>
-        </div>
-
-        <div id="wiki-footer">
-            <p>The Equitable Corporation &mdash; a corporate structure where the people who create the value keep it.</p>
-            <p>Founded by <strong>Ethan Wei, MD</strong>. &copy; 2026. &middot; <a href="https://equitablestandard.com" target="_blank">Read the full Standard</a></p>
-        </div>
+        </footer>
     </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
